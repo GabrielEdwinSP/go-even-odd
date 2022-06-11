@@ -1,11 +1,11 @@
 package goevenodd
 
-import "fmt"
-
-func EvenOdd(number int) {
+func EvenOdd(number int) string {
+	var result string
 	if number%2 == 0 {
-		fmt.Println("Genap")
+		result = "Genap"
 	} else {
-		fmt.Println("Ganjil")
+		result = "Ganjil"
 	}
+	return result
 }
